@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Theme.MarvelAppJean" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+=======
+    <style name="Theme.MarvelApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,7 +16,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+<<<<<<< HEAD
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="fontFamily">@font/roboto_regular</item>
+=======
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c
     </style>
 </resources>

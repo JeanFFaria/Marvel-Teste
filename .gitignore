@@ -37,7 +37,11 @@ proguard/
 captures/
 
 # IntelliJ
+<<<<<<< HEAD
 *.iml
+=======
+.iml
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
@@ -52,7 +56,11 @@ captures/
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
+<<<<<<< HEAD
 #*.jks
+=======
+#.jks
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c
 #*.keystore
 
 # External native build folder generated in Android Studio 2.2 and later
@@ -83,6 +91,10 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+<<<<<<< HEAD
 
 # Android Profiling
 *.hprof
+=======
+/.idea/modules/app/projeto.MarvelApp.app.iml
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c

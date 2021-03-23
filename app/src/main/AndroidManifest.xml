@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.marvelappjean">
+=======
+    package="com.example.marvelapp">
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c
 
     <application
         android:allowBackup="true"
@@ -9,6 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.MarvelAppJean">
         <activity android:name=".LoginActivity"/>
         <activity android:name=".CreateAnAccountActivity"/>
@@ -17,12 +22,21 @@
         <activity android:name=".ForgotYourPassword"/>
         <activity android:name=".MainExample"/>
         <activity android:name=".SplashScreenActivity">
+=======
+        android:theme="@style/Theme.MarvelApp">
+        <activity android:name=".view.MainActivity">
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+        <activity android:name=".view.DetailsComicsActivity" />
+        <activity android:name=".view.DetailsHeroesActivity" />
+>>>>>>> 0b53c47d803a2dda35ebd9b6fe1ac078ebd2a72c
     </application>
 
 </manifest>
